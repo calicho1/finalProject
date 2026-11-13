@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Flashcards</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css?v=3">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+  <script type="module" src="js/controller.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+      <button type="button" id="brand-home-btn" class="brand-btn">
+        <span class="brand-icon">
+          <i class="fa-solid fa-clone"></i>
+        </span>
+        <span class="brand-title">My Flashcards</span>
+      </button>
+      <button type="button" id="new-deck-btn" class="btn btn-primary"><i class="fa-solid fa-plus"></i> New Deck</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <p id="error-message" class="error-message hidden"></p>
+    <section id="view-home" class="view">
+      <div class="section-header">
+        <h1 class="page-title">My Decks</h1>
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Search my flashcards"
+        >
+      </div>
+
+      <div id="decks-grid" class="decks-grid"></div>
+      <p id="home-empty" class="empty-state hidden">No matching decks found.</p>
+    </section>
+
+    <section id="view-study" class="view hidden">
+      <div class="study-topbar">
+        <button type="button" id="study-back-btn" class="study-back-btn">
+          <span>←</span>
+          <span id="study-deck-title"></span>
+        </button>
+        <span id="study-progress" class="study-progress"></span>
+      </div>
+
+      <div id="study-stage" class="study-stage">
+        <button type="button" id="study-card" class="study-card">
+          <span id="study-card-label" class="study-card-label">Question</span>
+          <span id="study-card-text" class="study-card-text"></span>
+          <span id="study-reveal-hint" class="study-reveal-hint">Click to Reveal Answer</span>
+        </button>
+
+        <div id="study-actions" class="study-actions">
+          <button type="button" id="need-review-btn" class="btn-review">✕ Need Review</button>
+          <button type="button" id="got-right-btn" class="btn-right">Got it Right</button>
+        </div>
+      </div>
+
+      <div id="study-complete" class="study-complete hidden">
+        <h2>Session Complete!</h2>
+        <p id="study-summary-text" class="study-summary-text"></p>
+        <div class="study-complete-actions">
+          <button type="button" id="study-again-btn" class="btn btn-primary">Study Again</button>
+          <button type="button" id="study-done-home-btn" class="btn btn-secondary">Back to Decks</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="view-edit" class="view hidden">
+      <div class="edit-header">
+        <div class="edit-title-group">
+          <button type="button" id="edit-back-btn" class="back-link-btn">← Back to Decks</button>
+          <div class="edit-title-row">
+            <h1 id="edit-deck-title" class="page-title"></h1>
+            <button type="button" id="rename-deck-btn" class="btn btn-secondary">Rename Deck</button>
+          </div>
+        </div>
+        <button type="button" id="add-card-btn" class="btn btn-primary"><i class="fa-solid fa-plus"></i> Add New Card</button>
+      </div>
+
+      <div class="cards-panel">
+        <h2 id="edit-cards-heading" class="cards-panel-heading">All Cards (0)</h2>
+        <div class="cards-table-header">
+          <span>Question</span>
+          <span>Answer</span>
+          <span>Actions</span>
+        </div>
+        <div id="cards-table-body" class="cards-table-body"></div>
+        <p id="edit-empty" class="empty-state hidden">No cards in this deck yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <button type="button" id="reset-data-btn" class="btn-reset">Reset Starter Decks</button>
+  </footer>
+
+  <dialog id="app-modal" class="app-modal">
+    <div class="modal-header">
+      <h2 id="modal-title" class="modal-title"></h2>
+      <button type="button" id="modal-close-btn" class="modal-close-btn">✕</button>
+    </div>
+    <form id="modal-form" class="modal-form">
+      <div id="modal-fields" class="modal-fields"></div>
+      <div class="modal-footer">
+        <button type="button" id="modal-cancel-btn" class="btn btn-ghost">Cancel</button>
+        <button type="submit" id="modal-submit-btn" class="btn btn-primary">Save</button>
+      </div>
+    </form>
+  </dialog>
+</body>
+</html>

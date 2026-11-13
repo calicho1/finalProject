@@ -1,0 +1,202 @@
+{
+  "decks": [
+    {
+      "id": "deck-hci-fundamentals",
+      "title": "Fundamentals of HCI",
+      "cards": [
+        {
+          "id": "card-hci-1",
+          "question": "What is Don Norman's definition of an affordance in interaction design?",
+          "answer": "An affordance is a relationship between the properties of an object and the capabilities of the agent that determines how the object could possibly be used.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-2",
+          "question": "How does a signifier differ from an affordance?",
+          "answer": "An affordance defines what actions are possible, while a signifier is any perceivable indicator (such as a label, icon, or handle) that communicates where and how to act.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-3",
+          "question": "What are the two gulfs in Norman's Seven Stages of Action?",
+          "answer": "The Gulf of Execution (figuring out how to operate a system to achieve a goal) and the Gulf of Evaluation (interpreting the system's state to see if the goal was met).",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-4",
+          "question": "What does Fitts's Law state about target acquisition?",
+          "answer": "The time required to rapidly move to a target area is a function of the ratio between the distance to the target and the width of the target.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-5",
+          "question": "What does Hick's Law describe in interface design?",
+          "answer": "Hick's Law states that the time it takes a person to make a decision increases logarithmically with the number and complexity of available choices.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-6",
+          "question": "What is Jakob Nielsen's 'Visibility of System Status' heuristic?",
+          "answer": "A system should always keep users informed about what is going on through appropriate, timely feedback within a reasonable amount of time.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-7",
+          "question": "What is the difference between a slip and a mistake in human error?",
+          "answer": "A slip occurs when a user has the right intention but executes an action incorrectly (e.g., clicking the wrong button); a mistake occurs when the user forms an inappropriate goal or mental model.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-8",
+          "question": "What is a mental model in HCI?",
+          "answer": "A mental model is the user's internal, simplified representation of how a system works, shaped by past experience and interface cues.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-9",
+          "question": "What does 'recognition rather than recall' mean in usability heuristics?",
+          "answer": "Interfaces should minimize memory load by making objects, actions, and options visible rather than forcing users to remember information from one part of a workflow to another.",
+          "status": "new"
+        },
+        {
+          "id": "card-hci-10",
+          "question": "What are the four core principles of WCAG accessibility (POUR)?",
+          "answer": "Perceivable, Operable, Understandable, and Robust.",
+          "status": "new"
+        }
+      ]
+    },
+    {
+      "id": "deck-ux-research",
+      "title": "User Experience Research Methods",
+      "cards": [
+        {
+          "id": "card-ux-1",
+          "question": "What is the primary difference between generative and evaluative UX research?",
+          "answer": "Generative research explores user needs and behaviors to discover what to build, whereas evaluative research tests existing concepts or prototypes to assess usability and effectiveness.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-2",
+          "question": "What is contextual inquiry?",
+          "answer": "A qualitative field research method where researchers observe and interview users in their natural work or living environment while they perform real tasks.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-3",
+          "question": "How does a think-aloud protocol work during usability testing?",
+          "answer": "Participants verbalize their thoughts, expectations, and reactions continuously while completing realistic tasks so researchers can identify points of confusion.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-4",
+          "question": "What is heuristic evaluation, and how many evaluators are typically recommended?",
+          "answer": "A usability inspection method in which experts judge an interface against established usability principles; Nielsen recommends 3 to 5 independent evaluators.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-5",
+          "question": "When should a researcher choose open card sorting vs. closed card sorting?",
+          "answer": "Open card sorting lets participants create their own category labels (best for discovering mental models), while closed card sorting asks them to place items into predefined categories (best for validating an existing hierarchy).",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-6",
+          "question": "What is the purpose of tree testing in information architecture?",
+          "answer": "Tree testing evaluates the findability of topics in a site hierarchy using a text-only menu structure without visual design cues.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-7",
+          "question": "What distinguishes a diary study from a one-time interview?",
+          "answer": "A diary study captures longitudinal user behaviors, emotions, and context over days or weeks as participants log experiences in the moment.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-8",
+          "question": "What is the Hawthorne effect in user research?",
+          "answer": "The tendency for participants to alter their natural behavior simply because they know they are being observed.",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-9",
+          "question": "How do attitudinal and behavioral research methods differ?",
+          "answer": "Attitudinal methods capture what users say they think or feel (e.g., surveys, interviews), while behavioral methods observe what users actually do (e.g., usability tests, analytics).",
+          "status": "new"
+        },
+        {
+          "id": "card-ux-10",
+          "question": "Why should interview questions avoid leading phrasing?",
+          "answer": "Leading questions nudge participants toward a desired answer, introducing confirmation bias and distorting findings about real user needs.",
+          "status": "new"
+        }
+      ]
+    },
+    {
+      "id": "deck-hci-programming",
+      "title": "Programming Human-Centered Interfaces",
+      "cards": [
+        {
+          "id": "card-mvc-1",
+          "question": "What is the Model in the Model-View-Controller (MVC) architecture, and what are its core responsibilities?",
+          "answer": "The Model manages the application's data, state, and business logic. It represents the real-world domain entity.",
+          "status": "new"
+        },
+        {
+          "id": "card-mvc-2",
+          "question": "What is the View in the Model-View-Controller (MVC) architecture, and what are its core responsibilities?",
+          "answer": "The View handles visual output and DOM rendering. It receives clean, processed data and translates it into what the user sees on the screen.",
+          "status": "new"
+        },
+        {
+          "id": "card-mvc-3",
+          "question": "What is the Controller in the Model-View-Controller (MVC) architecture, and what are its core responsibilities?",
+          "answer": "The Controller acts as the intermediary. It listens to user interactions, commands the Model to update or retrieve data, and instructs the View to re-render.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-4",
+          "question": "Why is textContent preferred over innerHTML when rendering user-entered strings in the DOM?",
+          "answer": "textContent inserts raw text without parsing HTML, preventing Cross-Site Scripting (XSS) vulnerabilities when displaying untrusted or user-authored content.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-5",
+          "question": "What is event delegation, and why is it useful for dynamic lists?",
+          "answer": "Event delegation attaches a single event listener to a parent container and checks event.target (or closest()) so dynamically added or removed child elements work without rebinding listeners.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-6",
+          "question": "Why should fetch() calls check response.ok inside a try/catch block?",
+          "answer": "fetch() only rejects on network failures, not HTTP error statuses like 404 or 500; checking response.ok catches server/HTTP errors so the UI can display a graceful fallback state.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-7",
+          "question": "How do semantic HTML landmarks (<header>, <main>, <nav>, <footer>) improve accessibility?",
+          "answer": "Landmarks expose structural regions to assistive technologies, allowing screen reader and keyboard users to jump directly to navigation or primary content.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-8",
+          "question": "Why should apps guard external CDN libraries with a typeof check and try/catch fallback?",
+          "answer": "If a CDN script is blocked, slow, or fails to load, checking typeof before calling the library ensures core application features still function cleanly without runtime crashes.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-9",
+          "question": "What is the purpose of CSS custom properties (:root variables) in UI engineering?",
+          "answer": "CSS custom properties centralize design tokens like colors, spacing, and radii in one place, making themes consistent and easy to maintain across components.",
+          "status": "new"
+        },
+        {
+          "id": "card-prog-10",
+          "question": "How does native <dialog>.showModal() improve modal accessibility compared to a plain <div>?",
+          "answer": "showModal() places the dialog in the top layer with a ::backdrop, traps background interaction via inertness, and supports closing via the Escape key.",
+          "status": "new"
+        }
+      ]
+    }
+  ]
+}
